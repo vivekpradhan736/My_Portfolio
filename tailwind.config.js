@@ -4,6 +4,8 @@ module.exports = {
     fontFamily: {
       primary: 'Playfair Display',
       body: 'Work Sans',
+      headername: ['Great Vibes'],
+      footername: ['Pacifico'],
     },
     container: {
       padding: {

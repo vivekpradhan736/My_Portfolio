@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -41,4 +45,21 @@
   .active {
     @apply text-accent;
   }
+}
+
+#root, html, body {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
