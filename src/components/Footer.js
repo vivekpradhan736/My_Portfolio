@@ -16,7 +16,7 @@ const Footer = () => {
                     {social.map((item, index)=> {
                         const { href, icon } = item;
                         return (
-                        <a className='text-accent text-base' href={href} key={index}>{icon}</a>
+                        <a className='text-accent text-base text-xl' href={href} key={index}>{icon}</a>
                         );
                     })}
                 </div>

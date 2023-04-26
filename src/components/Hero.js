@@ -1,4 +1,6 @@
 import React from 'react'
+import Typical from 'react-typical'
+import Socials from '../components/Socials'
 
 // import woman image
 import ManImg from '../assets/img/My DP1.png'
@@ -14,12 +16,39 @@ const Hero = () => {
         <div className="flex items-center h-full pt-8">
           {/* left side */}
           <div className="flex-1 flex flex-col items-center lg:items-start">
-            <p className='text-3xl text-accent mb-[22px]'>Hey, I'm Vivek 👋</p>
-            <h1 className='text-4xl leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
+            <p className='text-3xl text-accent mb-[22px]'>Hey There, I'm Vivek 👋</p>
+            <h1 className='text-4xl mb-[14px] leading-[44px] md:text-5xl md:leading-tight lg:text-6xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
               I Build & Design <br /> Web Interfaces.
             </h1>
-            <p className='pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore id praesentium facere eius nemo totam dolores doloremque officiis laboriosam! Sed.</p>
+            <div className="font-mono mb-[22px] text-xl flex space-x-3 md:text-2xl lg:text-2xl ">
+              <h4> I Am Into </h4>
+              {/* Text to Animate */}
+              <strong className="text-red-600 px-1">
+                <Typical
+                  steps={[
+                    'Frontend Development.',
+                    2000,
+                    'Backend Development.',
+                    2000,
+                    'Web Designing.',
+                    2000,
+                    'Web Development.',
+                    2000,
+                    'UI/UX Designing.',
+                    2000,
+                    'Native Development.',
+                    2000,
+                  ]}
+                  wrapper="p"
+                  loop={Infinity}
+                />
+              </strong>
+            </div>
             <button className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all'><a href="#contact">Work with me</a></button>
+            {/* Socials */}
+            <div className='lg:block py-5'>
+                    <Socials />
+                </div>
           </div>
           {/* right side */}
           <div className="hidden lg:flex flex-1 justify-end items-end ">

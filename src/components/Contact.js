@@ -52,7 +52,7 @@ const Contact = () => {
                 {/* section title */}
                 <div className="flex flex-col items-center text-center">
                     <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>Contact me</h2>
-                    <p className="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dicta consequuntur temporibus atque explicabo similique recusandae culpa velit in sapiente!</p>
+                    <p className="subtitle text-sky-300">Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
                 </div>
                 <div className="flex flex-col lg:gap-x-8 lg:flex-row">
                     {/* info */}

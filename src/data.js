@@ -10,7 +10,11 @@ import {
   FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
+  FiTwitter,
 } from 'react-icons/fi';
+
+import { SiWhatsapp } from 'react-icons/si';
 
 // import {GitHubIcon} from '@mui/icons-material/GitHub';
 
@@ -23,11 +27,11 @@ import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
 import Project1 from './assets/img/projects/p1.jpg';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project2 from './assets/img/projects/p2.jpg';
+import Project3 from './assets/img/projects/p3.jpg';
+import Project4 from './assets/img/projects/p4.jpg';
+import Project5 from './assets/img/projects/p5.png';
+import Project6 from './assets/img/projects/p6.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -38,6 +42,15 @@ import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg9 from './assets/img/skills/react-native.jpeg';
+import SkillImg10 from './assets/img/skills/bootstrap.png';
+
+// services images
+import uiux from './assets/img/services/uiux.png';
+import frontend from './assets/img/services/frontend.png';
+import backend from './assets/img/services/backend.jpeg';
+import app from './assets/img/services/app.jpg';
+
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -75,20 +88,29 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: 'https://www.youtube.com/',
+    icon: <SiWhatsapp />,
+    href: 'https://wa.me/916203046018',
+    title: 'Whatsapp',
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://www.instagram.com/',
+    title: 'Instagram',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/vivekpradhan736',
+    title: 'Github',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/vivek-pradhan-b3ba9922b/',
+    title: 'Linkedin',
+  },
+  {
+    icon: <FiTwitter />,
+    href: 'https://www.twitter.com/',
+    title: 'Twitter',
   },
 ];
 
@@ -128,59 +150,70 @@ export const projectsData = [
     name: 'Netflix - streaming service',
     category: 'UI/UX design',
     technology: '#react.js #html #tailwind css #node.js #redux #firebase #googleAuth',
-    desc: 'Web application platform that allows user to search and streaming movies or web-serices.'
+    desc: 'Netflix is a Web application platform that allows user to search and streaming movies or web-serices.'
   },
   {
     id: '2',
-    icon: <FiGithub />,
-    href: '',
-    demo: 'Demo',
-    demoHref: '',
     image: Project2,
-    name: 'project name 2',
+    icon: <FiGithub />,
+    gitHref: 'https://github.com/vivekpradhan736/youtube-02',
+    demo: 'Demo',
+    demoHref: 'https://youtube-02.netlify.app',
+    name: 'YouTube - Video sharing platform',
     category: 'web development',
+    technology: '#html #tailwind css #javascript #react.js #node.js #redux #rapid api #react router',
+    desc: 'YouTube is an online video sharing and social media platform.',
   },
   {
     id: '3',
-    icon: <FiGithub />,
-    href: '',
-    demo: 'Demo',
-    demoHref: '',
     image: Project3,
-    name: 'project name 3',
+    icon: <FiGithub />,
+    gitHref: 'https://github.com/vivekpradhan736/Dashboard',
+    demo: 'Demo',
+    demoHref: 'https://dashboard-02.netlify.app/',
+    name: 'React Admin Dashboard...',
     category: 'UI/UX design',
+    technology: '#react.js #scss #html javascript #node.js #react-router #material UI #context API',
+    desc: 'It is a modern UI/UX admin Dashboard.',
   },
   {
     id: '4',
+    image: Project4,
     icon: <FiGithub />,
-    href: '',
+    gitHref: 'https://github.com/vivekpradhan736/React-E-commerce',
     demo: 'Demo',
     demoHref: '',
-    image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'E - Commerce (Cloth Store)',
+    category: 'web development',
+    technology: '#html #tailwind css #javascript #react.js #node.js #redux #strapi #stripe #react-router #next-auth',
+    desc: 'A Full-Stack E - Commerce site inspired by amazon/flipkart.',
   },
   {
     id: '5',
-    icon: <FiGithub />,
-    href: '',
-    demo: 'Demo',
-    demoHref: '',
     image: Project5,
-    name: 'project name 5',
-    category: 'web development',
+    icon: <FiGithub />,
+    gitHref: 'https://github.com/vivekpradhan736/My_Portfolio',
+    demo: 'Demo',
+    demoHref: 'https://vivekpradhan-portfolio.netlify.app',
+    name: 'React - Personal Portfolio',
+    category: 'UI/UX design',
+    technology: '#javascript #react.js #node.js #html #tailwind css #react-router #react-icons #heroicons #framer-motion',
+    desc: 'My self coded personal responsive portfolio build with React.js.',
   },
   {
     id: '6',
+    image: Project6,
     icon: <FiGithub />,
-    href: '',
+    gitHref: '',
     demo: 'Demo',
     demoHref: '',
-    image: Project6,
-    name: 'project name 6',
+    name: 'E - Commerce (Nike Store)',
     category: 'web development',
+    technology: '#html #tailwind css #javascript #react.js #node.js #redux #strapi #stripe #react-router #next-auth',
+    desc: 'A Full-Stack E - Commerce Shoes Store site inspired by Nike.',
   },
 ];
+
 
 // projects
 export const projectsNav = [
@@ -229,28 +262,26 @@ export const skills = [
 // services
 export const services = [
   {
-    icon: <FiLayout />,
+    image: uiux,
     name: 'UI/UX Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    description: 'I can Develop a User Interface (UI) and User Experience (UX) Design and play key roles in the experience users have when interacting with digital products and applications.',
   },
   {
-    icon: <FiSettings />,
+    image: frontend,
     name: 'Frontend Development',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+    description: 'I can Design a Frontend Website through HTML, CSS, JavaScript and its Library that make up a user interface.',
   },
   {
-    icon: <FiPenTool />,
+    image: backend,
     name: 'Backend Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'As a Web Developer, I can also Develop on server-side software, which focuses on everything you can’t see on a website. ',
   },
   {
-    icon: <FiTag />,
+    image: app,
     name: 'App Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I can also Design a Mobile Application through React-Native. React-Native codes support both Android and iOS.',
   },
 ];
 
@@ -285,12 +316,21 @@ export const contact = [
     icon: <FiMail />,
     title: 'Have a question?',
     subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    description: 'Email me at vivekpradhan736@gmail.com',
+    link: 'mailto:vivekpradhan736@gmail.com',
+  },
+  {
+    icon: <SiWhatsapp />,
+    title: 'Chat Me',
+    subtitle: 'Message me on What’s App.',
+    description: 'Message +91 6203046018',
+    link: 'https://wa.me/916203046018',
   },
   {
     icon: <FiMapPin />,
     title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
+    subtitle: 'Haridwar, UK',
     description: 'Serving clients worldwide',
+    link: '',
   },
 ];
