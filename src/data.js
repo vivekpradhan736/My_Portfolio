@@ -194,7 +194,7 @@ export const projectsData = [
     icon: <FiGithub />,
     gitHref: 'https://github.com/vivekpradhan736/My_Portfolio',
     demo: 'Demo',
-    demoHref: 'https://vivekpradhan-portfolio.netlify.app',
+    demoHref: 'https://vivekpradhan.vercel.app',
     name: 'React - Personal Portfolio',
     category: 'UI/UX design',
     technology: '#javascript #react.js #node.js #html #tailwind css #react-router #react-icons #heroicons #framer-motion',
