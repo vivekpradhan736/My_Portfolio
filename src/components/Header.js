@@ -2,9 +2,12 @@ import React, { useState, useEffect } from 'react'
 import Nav from '../components/Nav'
 import NavMobile from '../components/NavMobile'
 import Socials from '../components/Socials'
+import Sound from 'react-sound';
+import music from '../assets/music.mp3'
 
 const Header = () => {
     const [bg, setBg] = useState(false);
+    const [isPlaying, setIsPlaying] = useState(false);
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -16,11 +19,17 @@ const Header = () => {
             } flex items-center fixed top-0 w-full
         text-white z-10 transition-all duration-300`}>
             <div className="container mx-auto h-full flex items-center justify-between">
+            <button onClick={() => setIsPlaying(!isPlaying)}>
                 {/* logo */}
                 <a href="#" className='text-4xl font-headername'>
-                    {/* <img src={Logo} alt="" /> */}
+                <Sound 
+                 url={music}
+                 playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
+                 playFromPosition={300}
+                  />
                     Vivek
                 </a>
+                </button>
                 {/* nav */}
                 <div className='hidden lg:block'>
                     <Nav />
