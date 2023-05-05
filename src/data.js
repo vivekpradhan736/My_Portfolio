@@ -54,10 +54,10 @@ import backend from './assets/img/services/backend.jpeg';
 import app from './assets/img/services/app.jpg';
 
 
-// testimonial images
-import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
-import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
-import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
+// experience images
+import ExperienceImage1 from './assets/img/My DP.jpg';
+import ExperienceImage2 from './assets/img/testimonials/hcl.jpeg';
+import ExperienceImage3 from './assets/img/testimonials/testimonial-3.webp';
 
 // navigation
 export const navigation = [
@@ -77,10 +77,10 @@ export const navigation = [
     name: 'services',
     href: 'services',
   },
-  // {
-  //   name: 'testimonials',
-  //   href: 'testimonials',
-  // },
+  {
+    name: 'experience',
+    href: 'experience',
+  },
   {
     name: 'contact',
     href: 'contact',
@@ -287,29 +287,28 @@ export const services = [
   },
 ];
 
-// testimonials
-export const testimonials = [
+// experience
+export const experience = [
   {
-    authorImg: TestiImage1,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
+    authorImg: ExperienceImage1,
+    authorText:'Freelance Web Developer',
+    experienceTime: 'March 2022 - Present : 1 year 2 months',
+    experienceTitle: "I have been working as a Freelance Web Developer for over than a year. I have worked on various projects ranging from E-Commerce Stores to Social Media, Personal Websites to Landing Pages. I have worked with clients from all over the world and have always delivered the best possible results. Meeting my Client's requirements is one of the most important aspects of my job.",
     authorPosition: 'Head of Design, Google',
   },
   {
-    authorImg: TestiImage2,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
+    authorImg: ExperienceImage2,
+    authorText: 'Web Developer Intern at HCL Tech',
+    experienceTime: 'Nov 2022 - Dec 2022 : 2 months',
+    experienceTitle: "As a Front End Intern at the HCL Technology. I worked on a web development project that involved redesigning and improving the organization's website. My responsibilities included working closely with the senior developers to analyze and understand the existing website's structure, design, and functionality. After identifying the areas for improvement, I created wireframes and prototypes to present to the team and the management.",
     authorPosition: 'Head of Design, Google',
   },
-  {
-    authorImg: TestiImage3,
-    authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-    authorName: 'Olivia Doe',
-    authorPosition: 'Head of Design, Google',
-  },
+  // {
+  //   authorImg: ExperienceImage3,
+  //   authorText: 'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+  //   experienceTitle: 'Olivia Doe',
+  //   authorPosition: 'Head of Design, Google',
+  // },
 ];
 
 // contact

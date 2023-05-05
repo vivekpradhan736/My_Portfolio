@@ -77,8 +77,8 @@ const Contact = () => {
                             <input className='input' type="email" placeholder='Your email' required id='emailField' />
                         </div>
                         <input className='input' type="text" placeholder='Subject' required id='subjectField' />
-                        <textarea id='msgContent' className='textarea' placeholder='Your message'></textarea>
-                        <button className='btn btn-lg bg-accent hover:bg-accent-hover' onClick={contactFormSubmit}>Send message</button>
+                        <textarea id='msgContent' className='textarea' required placeholder='Your message'></textarea>
+                        <button className='btn btn-lg bg-accent hover:bg-accent-hover' required onClick={contactFormSubmit}>Send message</button>
                     </form>
                 </div>
             </div>
