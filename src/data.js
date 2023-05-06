@@ -46,8 +46,14 @@ import SkillImg5 from './assets/img/skills/nextjs.png';
 import SkillImg6 from './assets/img/skills/nodejs.png';
 import SkillImg7 from './assets/img/skills/git.png';
 import SkillImg8 from './assets/img/skills/figma.png';
-import SkillImg9 from './assets/img/skills/react-native.jpeg';
-import SkillImg10 from './assets/img/skills/bootstrap.png';
+import SkillImg9 from './assets/img/skills/bootstrap.png';
+import SkillImg10 from './assets/img/skills/redux.png';
+import SkillImg11 from './assets/img/skills/typescript.png';
+import SkillImg12 from './assets/img/skills/github.png';
+import SkillImg13 from './assets/img/skills/firebase.png';
+import SkillImg14 from './assets/img/skills/tailwind.png';
+import SkillImg15 from './assets/img/skills/c++.png';
+import SkillImg16 from './assets/img/skills/python.png';
 
 // services images
 import uiux from './assets/img/services/uiux.png';
@@ -288,6 +294,30 @@ export const skills = [
   },
   {
     image: SkillImg8,
+  },
+  {
+    image: SkillImg9,
+  },
+  {
+    image: SkillImg10,
+  },
+  {
+    image: SkillImg11,
+  },
+  {
+    image: SkillImg12,
+  },
+  {
+    image: SkillImg13,
+  },
+  {
+    image: SkillImg14,
+  },
+  {
+    image: SkillImg15,
+  },
+  {
+    image: SkillImg16,
   },
 ];
 
