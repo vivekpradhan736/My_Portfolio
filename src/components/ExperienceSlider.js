@@ -34,7 +34,7 @@ const ExperienceSlider = () => {
                     {experience.map((item, index) => 
                         (<div className='snap-start w-screen flex flex-col items-center '>
                             {/* <SwiperSlide key={index}> */}
-                                <div className='flex  w-screen gap-12 lg:gap-32'>
+                                <div className='flex  w-screen gap-12 lg:gap-32 max-sm:mb-6 '>
                                     <div className='w-48 h-48 lg:w-[250px] lg:h-[328px]'>
                                         <img className='rounded-2xl' src={item.experienceImg} alt="" />
                                     </div>
