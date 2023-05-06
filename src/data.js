@@ -34,6 +34,8 @@ import Project3 from './assets/img/projects/p3.jpg';
 import Project4 from './assets/img/projects/p4.jpg';
 import Project5 from './assets/img/projects/p5.png';
 import Project6 from './assets/img/projects/p6.png';
+import Project7 from './assets/img/projects/p7.png';
+import Project8 from './assets/img/projects/p8.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -56,8 +58,8 @@ import app from './assets/img/services/app.jpg';
 
 // experience images
 import ExperienceImage1 from './assets/img/My DP.jpg';
-import ExperienceImage2 from './assets/img/testimonials/hcl.jpeg';
-import ExperienceImage3 from './assets/img/testimonials/testimonial-3.webp';
+import ExperienceImage2 from './assets/img/experience/hcl.jpeg';
+import ExperienceImage3 from './assets/img/experience/udemy.jpeg';
 
 // navigation
 export const navigation = [
@@ -214,6 +216,30 @@ export const projectsData = [
     technology: '#html #tailwind css #javascript #react.js #node.js #redux #strapi #stripe #react-router #next-auth',
     desc: 'A Full-Stack E - Commerce Shoes Store site inspired by Nike.',
   },
+  {
+    id: '7',
+    image: Project7,
+    icon: <FiGithub />,
+    gitHref: 'https://github.com/vivekpradhan736/modern_ui_ux_restaurant',
+    demo: 'Demo',
+    demoHref: 'https://modern-ui-ux-restaurant1.vercel.app/',
+    name: 'Restaurant Landing Page',
+    category: 'UI/UX design',
+    technology: '#html #css #javascript #react.js #node.js #react-icons',
+    desc: 'A Frontend-React Restaurant Landing Page Site With Figma Design.',
+  },
+  {
+    id: '8',
+    image: Project8,
+    icon: <FiGithub />,
+    gitHref: 'https://github.com/vivekpradhan736/modern_gpt3-ui-ux',
+    demo: 'Demo',
+    demoHref: 'https://modern-gpt3-ui-ux.vercel.app/',
+    name: 'GPT-3 Landing Page',
+    category: 'UI/UX design',
+    technology: '#html #css #javascript #react.js #node.js #react-icons',
+    desc: 'A Frontend-React GPT-3 Landing Page Site With Figma Design.',
+  },
 ];
 
 
@@ -290,25 +316,23 @@ export const services = [
 // experience
 export const experience = [
   {
-    authorImg: ExperienceImage1,
-    authorText:'Freelance Web Developer',
+    experienceImg: ExperienceImage1,
+    experiencerText:'Freelance Web Developer',
     experienceTime: 'March 2022 - Present : 1 year 2 months',
     experienceTitle: "I have been working as a Freelance Web Developer for over than a year. I have worked on various projects ranging from E-Commerce Stores to Social Media, Personal Websites to Landing Pages. I have worked with clients from all over the world and have always delivered the best possible results. Meeting my Client's requirements is one of the most important aspects of my job.",
-    authorPosition: 'Head of Design, Google',
   },
   {
-    authorImg: ExperienceImage2,
-    authorText: 'Web Developer Intern at HCL Tech',
+    experienceImg: ExperienceImage2,
+    experienceText: 'Web Developer Intern at HCL Tech',
     experienceTime: 'Nov 2022 - Dec 2022 : 2 months',
     experienceTitle: "As a Front End Intern at the HCL Technology. I worked on a web development project that involved redesigning and improving the organization's website. My responsibilities included working closely with the senior developers to analyze and understand the existing website's structure, design, and functionality. After identifying the areas for improvement, I created wireframes and prototypes to present to the team and the management.",
-    authorPosition: 'Head of Design, Google',
   },
-  // {
-  //   authorImg: ExperienceImage3,
-  //   authorText: 'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
-  //   experienceTitle: 'Olivia Doe',
-  //   authorPosition: 'Head of Design, Google',
-  // },
+  {
+    experienceImg: ExperienceImage3,
+    experienceText: 'UDEMY: MERN Stack Front To Back Course',
+    experienceTime: 'Nov 2021 - Feb 2022 : 4 months',
+    experienceTitle: 'I have completed my first Web development Udemy course, as a web developer journey.',
+  },
 ];
 
 // contact

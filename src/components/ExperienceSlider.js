@@ -36,10 +36,10 @@ const ExperienceSlider = () => {
                             {/* <SwiperSlide key={index}> */}
                                 <div className='flex  w-screen gap-12 lg:gap-32'>
                                     <div className='w-48 h-48 lg:w-[250px] lg:h-[328px]'>
-                                        <img className='rounded-2xl' src={item.authorImg} alt="" />
+                                        <img className='rounded-2xl' src={item.experienceImg} alt="" />
                                     </div>
                                     <div className="flex flex-col lg:max-w-3xl max-w-xs">
-                                        <h2 className='font-body mb-2 text-3xl font-bold underline '>{item.authorText}</h2>
+                                        <h2 className='font-body mb-2 text-3xl font-bold underline '>{item.experienceText}</h2>
                                         <h4 className='font-body mb-4 text-1.5xl text-accent '>{item.experienceTime}</h4>
                                         <div>
                                             <p className='text-lg text-gray-300'>{item.experienceTitle}</p>
