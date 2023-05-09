@@ -1,0 +1,43 @@
+.vivek{
+    background: transparent;
+    height: 50px;
+    width: 200px;
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 200px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#vivek:hover{
+    animation: btnAnimation 5s infinite;
+}
+@keyframes btnAnimation{
+    10%{
+        color: #6b7747;
+        border: 1px solid #6b7747;
+        box-shadow: 0 0 20px 10px #6b7747;
+    }
+    20%{
+        color: #aada1b;
+        border: 1px solid #aada1b;
+        box-shadow: 0 0 20px 10px #aada1b;
+    }
+    50%{
+        color: #6a4027;
+        border: 1px solid #6a4027;
+        box-shadow: 0 0 20px 10px #6a4027;
+    }
+    75%{
+        color: #ba5609;
+        border: 1px solid #ba5609;
+        box-shadow: 0 0 20px 10px #ba5609;
+    }
+    100%{
+        color: #171abc;
+        border: 1px solid #171abc;
+        box-shadow: 0 0 20px 10px #171abc;
+    }
+}

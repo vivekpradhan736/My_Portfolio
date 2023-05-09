@@ -1,4 +1,5 @@
 import React from 'react'
+import './About.css'
 
 // import image
 import Image from '../assets/img/My DP.jpg'
@@ -18,7 +19,7 @@ const About = () => {
                             <hr className='mb-8 opacity-5' />
                             <p className='mb-8 text-orange-50'>Building projects my clients love have always been my passion. Being in the web development industry for over 1 year and serving more than 8 happy clients worldwide. I'm always motivated to do more! <br /> <br />Hi, my name is Vivek Pradhan. I'm a Freelance Web Developer based in Haridwar, India. I am a pursuing Computer Science & Engineering from GKV Haridwar. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.</p>
                         </div>
-                        <button className='btn btn-md bg-accent hover:bg-accent-hover transition-all'><a href="#contact">Contact me</a></button>
+                        <button id='vivek' className='btn btn-md bg-accent hover:bg-accent-hover transition-all'><a href="#contact">Contact me</a></button>
                     </div>
                 </div>
             </div>

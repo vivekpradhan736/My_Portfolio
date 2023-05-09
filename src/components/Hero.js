@@ -1,6 +1,7 @@
 import React from 'react'
 import Typical from 'react-typical'
 import Socials from '../components/Socials'
+import './Hero.css'
 
 // import woman image
 import ManImg from '../assets/img/My DP1.png'
@@ -12,6 +13,9 @@ const Hero = () => {
       className='lg:h-[85vh] flex
     items-center bg-primary lg:bg-cover
     lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
+    <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
       <div className='container mx-auto h-full'>
         <div className="flex items-center h-full pt-8">
           {/* left side */}
@@ -44,11 +48,20 @@ const Hero = () => {
                 />
               </strong>
             </div>
-            <button className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all'><a href="#contact">Work with me</a></button>
+            {/* <button id='vivek' className='btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all'><a href="#contact">Work with me</a></button> */}
             {/* Socials */}
             <div className='lg:block py-5'>
-                    <Socials />
-                </div>
+              <Socials />
+            </div>
+            <div class="wrapper">
+              <a id='hello' href="#contact">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Work with me
+              </a>
+            </div>
           </div>
           {/* right side */}
           <div className="hidden lg:flex flex-1 justify-end items-end ">
