@@ -36,6 +36,7 @@ import Project5 from './assets/img/projects/p5.png';
 import Project6 from './assets/img/projects/p6.png';
 import Project7 from './assets/img/projects/p7.png';
 import Project8 from './assets/img/projects/p8.png';
+import Project9 from './assets/img/projects/p9.png';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.png';
@@ -249,6 +250,18 @@ export const projectsData = [
     category: 'UI/UX design',
     technology: '#html #css #javascript #react.js #node.js #react-icons',
     desc: 'A Frontend-React GPT-3 Landing Page Site With Figma Design.',
+  },
+  {
+    id: '9',
+    image: Project9,
+    icon: <FiGithub />,
+    gitHref: 'https://github.com/vivekpradhan736/Movie_Flix',
+    demo: 'Demo',
+    demoHref: '',
+    name: 'Movies & Web-Series Picker',
+    category: 'web development',
+    technology: '#html #tailwind css #javascript #next.js #node.js #rapid-api #mongoDB #next-auth',
+    desc: "It's a Full-stack Random movie and web-series picker website, inspired by IMDB and Netflix.",
   },
 ];
 
