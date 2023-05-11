@@ -159,7 +159,7 @@ export const projectsData = [
     demo: 'Demo',
     demoHref: 'https://viveknetflix02.netlify.app/',
     name: 'Netflix - streaming service',
-    category: 'UI/UX design',
+    category: 'web development',
     technology: '#react.js #html #tailwind css #node.js #redux #firebase #googleAuth',
     desc: 'Netflix is a Web application platform that allows user to search and streaming movies or web-serices.'
   },
