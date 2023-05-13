@@ -2,6 +2,7 @@ import React from 'react'
 import Typical from 'react-typical'
 import Socials from '../components/Socials'
 import './Hero.css'
+import BgVideo from '../assets/video2.mp4'
 
 // import woman image
 import ManImg from '../assets/img/My DP1.png'
@@ -11,11 +12,13 @@ const Hero = () => {
     <section
       id='home'
       className='lg:h-[85vh] flex
-    items-center bg-primary lg:bg-cover
-    lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'>
-    <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
+    items-center lg:bg-cover
+    lg:bg-center lg:bg-no-repeat  py-32 lg:py-0 overflow-hidden'>
+    <video src={BgVideo} autoPlay muted loop class='video-bg' />
+    <div className="bg-overlay"></div>
+      {/* <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div> */}
       <div className='container mx-auto h-full'>
         <div className="flex items-center h-full pt-8">
           {/* left side */}

@@ -55,7 +55,7 @@ const NavMobile = () => {
       {/* circle */}
       <motion.div variants={circleVariants}
         initial='hidden' animate={isOpen ? 'visible' :
-          'hidden'} className='w-4 h-4 rounded-full bg-accent fixed top-0 right-0'>
+          'hidden'} className='w-4 h-4 rounded-full bg-gray-800 fixed top-0 right-0'>
       </motion.div>
 
       {/* menu */}
