@@ -2,7 +2,7 @@ import React from 'react'
 import Typical from 'react-typical'
 import Socials from '../components/Socials'
 import './Hero.css'
-import BgVideo from '../assets/video1.mp4'
+import BgVideo from '../assets/video.mp4'
 
 // import woman image
 import ManImg from '../assets/img/My DP1.png'
@@ -14,7 +14,7 @@ const Hero = () => {
       className='lg:h-[85vh] flex
     items-center lg:bg-cover
     lg:bg-center lg:bg-no-repeat  py-32 lg:py-0 overflow-hidden'>
-    <video src={BgVideo} autoPlay muted loop class='video-bg' />
+    <video src={BgVideo} autoPlay muted loop class='video-bg' loading="lazy" />
     <div className="bg-overlay"></div>
       {/* <div id="stars"></div>
       <div id="stars2"></div>
