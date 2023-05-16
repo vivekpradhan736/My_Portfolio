@@ -2,7 +2,7 @@ import React from 'react'
 import Typical from 'react-typical'
 import Socials from '../components/Socials'
 import './Hero.css'
-import BgVideo from '../assets/video2.mp4'
+import BgVideo from '../assets/video1.mp4'
 
 // import woman image
 import ManImg from '../assets/img/My DP1.png'
