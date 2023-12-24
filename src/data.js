@@ -64,7 +64,7 @@ import app from './assets/img/services/app.jpg';
 
 
 // experience images
-import ExperienceImage1 from './assets/img/My DP.jpg';
+import ExperienceImage1 from './assets/img/mypic2.png';
 import ExperienceImage2 from './assets/img/experience/hcl.jpeg';
 import ExperienceImage3 from './assets/img/experience/udemy.jpeg';
 
@@ -199,30 +199,30 @@ export const projectsData = [
     technology: '#html #tailwind css #javascript #react.js #node.js #redux #strapi #stripe #react-router #next-auth',
     desc: 'A Full-Stack E - Commerce site inspired by amazon/flipkart.',
   },
-  {
-    id: '5',
-    image: Project5,
-    icon: <FiGithub />,
-    gitHref: 'https://github.com/vivekpradhan736/My_Portfolio',
-    demo: 'Demo',
-    demoHref: 'https://vivekpradhan.vercel.app',
-    name: 'React - Personal Portfolio',
-    category: 'UI/UX design',
-    technology: '#javascript #react.js #node.js #html #tailwind css #react-router #react-icons #heroicons #framer-motion',
-    desc: 'My self coded personal responsive portfolio build with React.js.',
-  },
-  {
-    id: '6',
-    image: Project6,
-    icon: <FiGithub />,
-    gitHref: '',
-    demo: 'Demo',
-    demoHref: '',
-    name: 'E - Commerce (Nike Store)',
-    category: 'web development',
-    technology: '#html #tailwind css #javascript #react.js #node.js #redux #strapi #stripe #react-router #next-auth',
-    desc: 'A Full-Stack E - Commerce Shoes Store site inspired by Nike.',
-  },
+  // {
+  //   id: '5',
+  //   image: Project5,
+  //   icon: <FiGithub />,
+  //   gitHref: 'https://github.com/vivekpradhan736/My_Portfolio',
+  //   demo: 'Demo',
+  //   demoHref: 'https://vivekpradhan.vercel.app',
+  //   name: 'React - Personal Portfolio',
+  //   category: 'UI/UX design',
+  //   technology: '#javascript #react.js #node.js #html #tailwind css #react-router #react-icons #heroicons #framer-motion',
+  //   desc: 'My self coded personal responsive portfolio build with React.js.',
+  // },
+  // {
+  //   id: '6',
+  //   image: Project6,
+  //   icon: <FiGithub />,
+  //   gitHref: '',
+  //   demo: 'Demo',
+  //   demoHref: '',
+  //   name: 'E - Commerce (Nike Store)',
+  //   category: 'web development',
+  //   technology: '#html #tailwind css #javascript #react.js #node.js #redux #strapi #stripe #react-router #next-auth',
+  //   desc: 'A Full-Stack E - Commerce Shoes Store site inspired by Nike.',
+  // },
   {
     id: '7',
     image: Project7,
@@ -251,18 +251,18 @@ export const projectsData = [
     technology: '#html #css #javascript #react.js #node.js #react-icons',
     desc: 'A Frontend-React GPT-3 Landing Page Site With Figma Design.',
   },
-  {
-    id: '9',
-    image: Project9,
-    icon: <FiGithub />,
-    gitHref: 'https://github.com/vivekpradhan736/Movie_Flix',
-    demo: 'Demo',
-    demoHref: '',
-    name: 'Movies & Web-Series Picker',
-    category: 'web development',
-    technology: '#html #tailwind css #javascript #next.js #node.js #rapid-api #mongoDB #next-auth',
-    desc: "It's a Full-stack Random movie and web-series picker website, inspired by IMDB and Netflix.",
-  },
+  // {
+  //   id: '9',
+  //   image: Project9,
+  //   icon: <FiGithub />,
+  //   gitHref: 'https://github.com/vivekpradhan736/Movie_Flix',
+  //   demo: 'Demo',
+  //   demoHref: '',
+  //   name: 'Movies & Web-Series Picker',
+  //   category: 'web development',
+  //   technology: '#html #tailwind css #javascript #next.js #node.js #rapid-api #mongoDB #next-auth',
+  //   desc: "It's a Full-stack Random movie and web-series picker website, inspired by IMDB and Netflix.",
+  // },
 ];
 
 

@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react'
 import Nav from '../components/Nav'
 import NavMobile from '../components/NavMobile'
 import Socials from '../components/Socials'
-import Sound from 'react-sound';
-import music from '../assets/music.mp3'
 
 const Header = () => {
     const [bg, setBg] = useState(false);
@@ -22,11 +20,6 @@ const Header = () => {
             <button onClick={() => setIsPlaying(!isPlaying)}>
                 {/* logo */}
                 <a href="#" className='text-4xl font-headername'>
-                <Sound 
-                 url={music}
-                 playStatus={isPlaying ? Sound.status.PLAYING : Sound.status.STOPPED}
-                 playFromPosition={300}
-                  />
                     Vivek
                 </a>
                 </button>
